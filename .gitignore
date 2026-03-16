@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Database
+*.db
+
+# Screenshots
+*.png
+
+# Node
+node_modules/
+
+# System
+.DS_Store

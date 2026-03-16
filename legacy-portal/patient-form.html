@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patient Registration</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Patient Registration Form</h1>
+    <form action="success.html">
+      <table>
+        <tr>
+          <td><label for="patientName">Patient Name</label></td>
+          <td><input type="text" id="patientName" name="patientName" /></td>
+        </tr>
+        <tr>
+          <td><label for="birthDate">Birth Date</label></td>
+          <td><input type="date" id="birthDate" name="birthDate" /></td>
+        </tr>
+        <tr>
+          <td><label for="insuranceType">Insurance Type</label></td>
+          <td>
+            <select id="insuranceType" name="insuranceType">
+              <option value="">Select</option>
+              <option value="Aetna">Aetna</option>
+              <option value="BlueCross">Blue Cross</option>
+              <option value="Cigna">Cigna</option>
+              <option value="United">United Healthcare</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="phone">Phone</label></td>
+          <td><input type="text" id="phone" name="phone" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center;">
+            <button type="submit">Submit Registration</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <div class="notice">Please verify all information before submission.</div>
+  </div>
+</body>
+</html>
