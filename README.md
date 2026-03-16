@@ -137,11 +137,17 @@ bridgeflow-ai
 
 ## Running the Project
 
-Install dependencies:
-- pip install -r requirements.txt
-- Run the API server:
-- python agent_api.py
-- Server runs at: http://127.0.0.1:5000
+- Backend
+cd agent
+pip install -r requirements.txt
+python agent_api.py
+
+The backend server runs at: http://127.0.0.1:5000
+
+- Frontend
+cd dashboard
+npm install
+npm start
 
 ------------------------------------------------------------------------
 
